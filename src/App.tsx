@@ -1,3 +1,4 @@
+import { IconSim } from './iconfont/IconSim';
 import { IconCartEmpty } from './iconfont/IconCartEmpty';
 import { IconSearch } from './iconfont/IconSearch';
 import { IconEdit } from './iconfont/IconEdit';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         </tr>
       </thead>
       <tbody>
+        <tr><td>IconSim</td><td><IconSim /></td></tr>
         <tr><td>IconCartEmpty</td><td><IconCartEmpty /></td></tr>
         <tr><td>IconSearch</td><td><IconSearch /></td></tr>
         <tr><td>IconEdit</td><td><IconEdit /></td></tr>
