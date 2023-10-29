@@ -9,7 +9,7 @@ interface IProps extends Omit<SVGAttributes<SVGElement>, 'color'> {
   color?: string | string[];
 }
 
-export const International = ({ size, color, ...rest }: IProps) => {
+export const IconInternational = ({ size, color, ...rest }: IProps) => {
   return (
     <svg viewBox="0 0 1024 1024" width={size} height={size} {...rest}>
       <path
@@ -20,7 +20,7 @@ export const International = ({ size, color, ...rest }: IProps) => {
   );
 };
 
-International.defaultProps = {
+IconInternational.defaultProps = {
   size: 18,
   color: '#000',
 };

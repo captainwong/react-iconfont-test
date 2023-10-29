@@ -1,14 +1,14 @@
-import { CartEmpty } from './CartEmpty';
-import { Search } from './Search';
-import { Edit } from './Edit';
-import { Share } from './Share';
-import { Setting } from './Setting';
-import { Lock } from './Lock';
-import { Unlock } from './Unlock';
-import { User } from './User';
-import { List } from './List';
-import { International } from './International';
-import { Refresh } from './Refresh';
+import { IconCartEmpty } from './iconfont/IconCartEmpty';
+import { IconSearch } from './iconfont/IconSearch';
+import { IconEdit } from './iconfont/IconEdit';
+import { IconShare } from './iconfont/IconShare';
+import { IconSetting } from './iconfont/IconSetting';
+import { IconLock } from './iconfont/IconLock';
+import { IconUnlock } from './iconfont/IconUnlock';
+import { IconUser } from './iconfont/IconUser';
+import { IconList } from './iconfont/IconList';
+import { IconInternational } from './iconfont/IconInternational';
+import { IconRefresh } from './iconfont/IconRefresh';
 
 const App: React.FC = () => {
   return (
@@ -20,17 +20,17 @@ const App: React.FC = () => {
         </tr>
       </thead>
       <tbody>
-        <tr><td>CartEmpty</td><td><CartEmpty /></td></tr>
-        <tr><td>Search</td><td><Search /></td></tr>
-        <tr><td>Edit</td><td><Edit /></td></tr>
-        <tr><td>Share</td><td><Share /></td></tr>
-        <tr><td>Setting</td><td><Setting /></td></tr>
-        <tr><td>Lock</td><td><Lock /></td></tr>
-        <tr><td>Unlock</td><td><Unlock /></td></tr>
-        <tr><td>User</td><td><User /></td></tr>
-        <tr><td>List</td><td><List /></td></tr>
-        <tr><td>International</td><td><International /></td></tr>
-        <tr><td>Refresh</td><td><Refresh /></td></tr>
+        <tr><td>IconCartEmpty</td><td><IconCartEmpty /></td></tr>
+        <tr><td>IconSearch</td><td><IconSearch /></td></tr>
+        <tr><td>IconEdit</td><td><IconEdit /></td></tr>
+        <tr><td>IconShare</td><td><IconShare /></td></tr>
+        <tr><td>IconSetting</td><td><IconSetting /></td></tr>
+        <tr><td>IconLock</td><td><IconLock /></td></tr>
+        <tr><td>IconUnlock</td><td><IconUnlock /></td></tr>
+        <tr><td>IconUser</td><td><IconUser /></td></tr>
+        <tr><td>IconList</td><td><IconList /></td></tr>
+        <tr><td>IconInternational</td><td><IconInternational /></td></tr>
+        <tr><td>IconRefresh</td><td><IconRefresh /></td></tr>
       </tbody>
     </table>
   );

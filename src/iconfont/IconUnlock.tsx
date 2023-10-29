@@ -9,18 +9,22 @@ interface IProps extends Omit<SVGAttributes<SVGElement>, 'color'> {
   color?: string | string[];
 }
 
-export const CartEmpty = ({ size, color, ...rest }: IProps) => {
+export const IconUnlock = ({ size, color, ...rest }: IProps) => {
   return (
     <svg viewBox="0 0 1024 1024" width={size} height={size} {...rest}>
       <path
-        d="M384 768a64 64 0 1 0 0.032 128.032A64 64 0 0 0 384 768M704 768a64 64 0 1 0 0.032 128.032A64 64 0 0 0 704 768M312.672 512l-51.456-192h560.96l-51.456 192H312.672z m583.36-224a32 32 0 0 0-32-32H244.064L209.824 128H96v64h64.672l145.728 544H800v-64H355.52l-25.664-96H819.84l12.16-45.376 64-238.88-0.768-0.192C895.424 290.336 896 289.28 896 288z"
+        d="M384 480v-160c0-70.4 57.6-128 128-128s128 57.6 128 128v64h64v-64c0-105.6-86.4-192-192-192s-192 86.4-192 192v160H160v416h704V480H384z m416 352H224v-288h576v288z"
+        fill={getIconColor(color, 0, '#181818')}
+      />
+      <path
+        d="M416 736h192v-64h-192z"
         fill={getIconColor(color, 0, '#181818')}
       />
     </svg>
   );
 };
 
-CartEmpty.defaultProps = {
+IconUnlock.defaultProps = {
   size: 18,
   color: '#000',
 };

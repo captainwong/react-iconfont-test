@@ -9,7 +9,7 @@ interface IProps extends Omit<SVGAttributes<SVGElement>, 'color'> {
   color?: string | string[];
 }
 
-export const Lock = ({ size, color, ...rest }: IProps) => {
+export const IconLock = ({ size, color, ...rest }: IProps) => {
   return (
     <svg viewBox="0 0 1024 1024" width={size} height={size} {...rest}>
       <path
@@ -24,7 +24,7 @@ export const Lock = ({ size, color, ...rest }: IProps) => {
   );
 };
 
-Lock.defaultProps = {
+IconLock.defaultProps = {
   size: 18,
   color: '#000',
 };

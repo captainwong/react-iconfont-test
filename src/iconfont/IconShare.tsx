@@ -9,7 +9,7 @@ interface IProps extends Omit<SVGAttributes<SVGElement>, 'color'> {
   color?: string | string[];
 }
 
-export const Share = ({ size, color, ...rest }: IProps) => {
+export const IconShare = ({ size, color, ...rest }: IProps) => {
   return (
     <svg viewBox="0 0 1024 1024" width={size} height={size} {...rest}>
       <path
@@ -20,7 +20,7 @@ export const Share = ({ size, color, ...rest }: IProps) => {
   );
 };
 
-Share.defaultProps = {
+IconShare.defaultProps = {
   size: 18,
   color: '#000',
 };
